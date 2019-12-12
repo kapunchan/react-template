@@ -1,0 +1,81 @@
+{
+  "name": "react-template",
+  "version": "0.1.0",
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "scripts": {
+    "build": "react-app-rewired build",
+    "eject": "react-app-rewired eject",
+    "i18n": "node ./scripts/extract.js",
+    "lint": "eslint --ext .js --ext .ts --ext .tsx src/",
+    "lint:fix": "npm run lint -- --fix",
+    "start": "react-app-rewired start",
+    "test": "react-app-rewired test"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "classnames": "^2.2.6",
+    "lodash": "^4.17.15",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-intl": "^3.9.2",
+    "react-redux": "^7.1.3",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
+    "@babel/plugin-transform-typescript": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.4",
+    "@types/classnames": "^2.2.9",
+    "@types/jest": "24.0.23",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "12.12.12",
+    "@types/react": "16.9.13",
+    "@types/react-dom": "16.9.4",
+    "@types/react-redux": "^7.1.5",
+    "@types/react-router": "^5.1.3",
+    "@types/react-router-dom": "^5.1.3",
+    "@types/react-router-redux": "^5.0.18",
+    "@typescript-eslint/eslint-plugin": "^2.10.0",
+    "@typescript-eslint/parser": "^2.10.0",
+    "babel-plugin-react-intl-auto": "^3.1.0",
+    "core-js": "^3.5.0",
+    "customize-cra": "^0.9.1",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "extract-react-intl-messages": "^2.3.5",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "prettier": "^1.19.1",
+    "prop-types": "^15.7.2",
+    "react-app-rewired": "^2.1.5",
+    "react-scripts": "3.2.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "3.7.2"
+  }
+}
